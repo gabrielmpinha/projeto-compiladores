@@ -9,6 +9,7 @@ public class GeradorJson {
             FileWriter arquivo = new FileWriter (fileName +".json");
             arquivo.write(toString(t).toString());
             arquivo.close();
+            System.out.printf("%s\n", GeradorJson.toString(t));
 
         } catch (Exception e) {
             e.printStackTrace();
