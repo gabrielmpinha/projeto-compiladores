@@ -1,0 +1,1 @@
+json(par("a", 3), par("b", false), par("teste", vetor(1,2,false,"xyz")))

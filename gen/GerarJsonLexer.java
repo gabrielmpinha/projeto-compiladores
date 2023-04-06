@@ -1,4 +1,4 @@
-// Generated from C:/Users/gabri/Documents/GitHub/projeto-compiladores\gerarJson.g4 by ANTLR 4.12.0
+// Generated from C:/Users/gabri/Documents/GitHub/projeto-compiladores\GerarJson.g4 by ANTLR 4.12.0
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -9,7 +9,7 @@ import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast", "CheckReturnValue"})
-public class gerarJsonLexer extends Lexer {
+public class GerarJsonLexer extends Lexer {
 	static { RuntimeMetaData.checkVersion("4.12.0", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
@@ -80,13 +80,13 @@ public class gerarJsonLexer extends Lexer {
 	}
 
 
-	public gerarJsonLexer(CharStream input) {
+	public GerarJsonLexer(CharStream input) {
 		super(input);
 		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
 	@Override
-	public String getGrammarFileName() { return "gerarJson.g4"; }
+	public String getGrammarFileName() { return "GerarJson.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }
@@ -142,9 +142,9 @@ public class gerarJsonLexer extends Lexer {
 		"\u000024\u0007\u0002\u0000\u000030\u0001\u0000\u0000\u000031\u0001\u0000"+
 		"\u0000\u000047\u0001\u0000\u0000\u000053\u0001\u0000\u0000\u000056\u0001"+
 		"\u0000\u0000\u000068\u0001\u0000\u0000\u000075\u0001\u0000\u0000\u0000"+
-		"89\u0005\"\u0000\u00009\u0010\u0001\u0000\u0000\u0000:;\u0005T\u0000\u0000"+
+		"89\u0005\"\u0000\u00009\u0010\u0001\u0000\u0000\u0000:;\u0005t\u0000\u0000"+
 		";<\u0005r\u0000\u0000<=\u0005u\u0000\u0000=D\u0005e\u0000\u0000>?\u0005"+
-		"F\u0000\u0000?@\u0005a\u0000\u0000@A\u0005l\u0000\u0000AB\u0005s\u0000"+
+		"f\u0000\u0000?@\u0005a\u0000\u0000@A\u0005l\u0000\u0000AB\u0005s\u0000"+
 		"\u0000BD\u0005e\u0000\u0000C:\u0001\u0000\u0000\u0000C>\u0001\u0000\u0000"+
 		"\u0000D\u0012\u0001\u0000\u0000\u0000EG\u0007\u0003\u0000\u0000FE\u0001"+
 		"\u0000\u0000\u0000GH\u0001\u0000\u0000\u0000HF\u0001\u0000\u0000\u0000"+

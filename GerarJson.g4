@@ -1,8 +1,8 @@
-grammar gerarJson;
+grammar GerarJson;
 
 INT: [0-9]+;
 STRING: '"' ( ~[\\"\n\r] | '\\' [\\"] )* '"' ;
-BOOL: 'True' | 'False';
+BOOL: 'true' | 'false';
 SKP: [ \t\n\r]+ -> skip ;
 
 exp:
@@ -16,4 +16,4 @@ par: 'par' '(' STRING ',' exp ')';
 vetor: 'vetor' '(' ((exp ',')* exp | ) ')';
 objeto: 'json' '(' ((par ',')* par | ) ')';
 
-program: vetor | objeto;
+program: (vetor | objeto) EOF;

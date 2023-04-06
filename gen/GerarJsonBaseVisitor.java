@@ -1,8 +1,8 @@
-// Generated from C:/Users/gabri/Documents/GitHub/projeto-compiladores\gerarJson.g4 by ANTLR 4.12.0
+// Generated from C:/Users/gabri/Documents/GitHub/projeto-compiladores\GerarJson.g4 by ANTLR 4.12.0
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**
- * This class provides an empty implementation of {@link gerarJsonVisitor},
+ * This class provides an empty implementation of {@link GerarJsonVisitor},
  * which can be extended to create a visitor which only needs to handle a subset
  * of the available methods.
  *
@@ -10,68 +10,68 @@ import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
  * operations with no return type.
  */
 @SuppressWarnings("CheckReturnValue")
-public class gerarJsonBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements gerarJsonVisitor<T> {
+public class GerarJsonBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements GerarJsonVisitor<T> {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitString(gerarJsonParser.StringContext ctx) { return visitChildren(ctx); }
+	@Override public T visitString(GerarJsonParser.StringContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitInt(gerarJsonParser.IntContext ctx) { return visitChildren(ctx); }
+	@Override public T visitInt(GerarJsonParser.IntContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitBool(gerarJsonParser.BoolContext ctx) { return visitChildren(ctx); }
+	@Override public T visitBool(GerarJsonParser.BoolContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitArray(gerarJsonParser.ArrayContext ctx) { return visitChildren(ctx); }
+	@Override public T visitArray(GerarJsonParser.ArrayContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitObj(gerarJsonParser.ObjContext ctx) { return visitChildren(ctx); }
+	@Override public T visitObj(GerarJsonParser.ObjContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitPar(gerarJsonParser.ParContext ctx) { return visitChildren(ctx); }
+	@Override public T visitPar(GerarJsonParser.ParContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitVetor(gerarJsonParser.VetorContext ctx) { return visitChildren(ctx); }
+	@Override public T visitVetor(GerarJsonParser.VetorContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitObjeto(gerarJsonParser.ObjetoContext ctx) { return visitChildren(ctx); }
+	@Override public T visitObjeto(GerarJsonParser.ObjetoContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitProgram(gerarJsonParser.ProgramContext ctx) { return visitChildren(ctx); }
+	@Override public T visitProgram(GerarJsonParser.ProgramContext ctx) { return visitChildren(ctx); }
 }
