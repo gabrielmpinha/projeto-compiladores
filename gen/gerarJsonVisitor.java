@@ -10,24 +10,6 @@ import org.antlr.v4.runtime.tree.ParseTreeVisitor;
  */
 public interface gerarJsonVisitor<T> extends ParseTreeVisitor<T> {
 	/**
-	 * Visit a parse tree produced by {@link gerarJsonParser#vetor}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitVetor(gerarJsonParser.VetorContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link gerarJsonParser#obj}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitObj(gerarJsonParser.ObjContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link gerarJsonParser#tupla}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitTupla(gerarJsonParser.TuplaContext ctx);
-	/**
 	 * Visit a parse tree produced by the {@code string}
 	 * labeled alternative in {@link gerarJsonParser#exp}.
 	 * @param ctx the parse tree
@@ -56,16 +38,34 @@ public interface gerarJsonVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitArray(gerarJsonParser.ArrayContext ctx);
 	/**
-	 * Visit a parse tree produced by the {@code objeto}
+	 * Visit a parse tree produced by the {@code obj}
 	 * labeled alternative in {@link gerarJsonParser#exp}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitObj(gerarJsonParser.ObjContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link gerarJsonParser#par}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitPar(gerarJsonParser.ParContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link gerarJsonParser#vetor}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitVetor(gerarJsonParser.VetorContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link gerarJsonParser#objeto}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitObjeto(gerarJsonParser.ObjetoContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link gerarJsonParser#json}.
+	 * Visit a parse tree produced by {@link gerarJsonParser#program}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitJson(gerarJsonParser.JsonContext ctx);
+	T visitProgram(gerarJsonParser.ProgramContext ctx);
 }

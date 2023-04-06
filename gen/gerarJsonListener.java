@@ -7,36 +7,6 @@ import org.antlr.v4.runtime.tree.ParseTreeListener;
  */
 public interface gerarJsonListener extends ParseTreeListener {
 	/**
-	 * Enter a parse tree produced by {@link gerarJsonParser#vetor}.
-	 * @param ctx the parse tree
-	 */
-	void enterVetor(gerarJsonParser.VetorContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link gerarJsonParser#vetor}.
-	 * @param ctx the parse tree
-	 */
-	void exitVetor(gerarJsonParser.VetorContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link gerarJsonParser#obj}.
-	 * @param ctx the parse tree
-	 */
-	void enterObj(gerarJsonParser.ObjContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link gerarJsonParser#obj}.
-	 * @param ctx the parse tree
-	 */
-	void exitObj(gerarJsonParser.ObjContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link gerarJsonParser#tupla}.
-	 * @param ctx the parse tree
-	 */
-	void enterTupla(gerarJsonParser.TuplaContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link gerarJsonParser#tupla}.
-	 * @param ctx the parse tree
-	 */
-	void exitTupla(gerarJsonParser.TuplaContext ctx);
-	/**
 	 * Enter a parse tree produced by the {@code string}
 	 * labeled alternative in {@link gerarJsonParser#exp}.
 	 * @param ctx the parse tree
@@ -85,25 +55,55 @@ public interface gerarJsonListener extends ParseTreeListener {
 	 */
 	void exitArray(gerarJsonParser.ArrayContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code objeto}
+	 * Enter a parse tree produced by the {@code obj}
 	 * labeled alternative in {@link gerarJsonParser#exp}.
+	 * @param ctx the parse tree
+	 */
+	void enterObj(gerarJsonParser.ObjContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code obj}
+	 * labeled alternative in {@link gerarJsonParser#exp}.
+	 * @param ctx the parse tree
+	 */
+	void exitObj(gerarJsonParser.ObjContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link gerarJsonParser#par}.
+	 * @param ctx the parse tree
+	 */
+	void enterPar(gerarJsonParser.ParContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link gerarJsonParser#par}.
+	 * @param ctx the parse tree
+	 */
+	void exitPar(gerarJsonParser.ParContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link gerarJsonParser#vetor}.
+	 * @param ctx the parse tree
+	 */
+	void enterVetor(gerarJsonParser.VetorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link gerarJsonParser#vetor}.
+	 * @param ctx the parse tree
+	 */
+	void exitVetor(gerarJsonParser.VetorContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link gerarJsonParser#objeto}.
 	 * @param ctx the parse tree
 	 */
 	void enterObjeto(gerarJsonParser.ObjetoContext ctx);
 	/**
-	 * Exit a parse tree produced by the {@code objeto}
-	 * labeled alternative in {@link gerarJsonParser#exp}.
+	 * Exit a parse tree produced by {@link gerarJsonParser#objeto}.
 	 * @param ctx the parse tree
 	 */
 	void exitObjeto(gerarJsonParser.ObjetoContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link gerarJsonParser#json}.
+	 * Enter a parse tree produced by {@link gerarJsonParser#program}.
 	 * @param ctx the parse tree
 	 */
-	void enterJson(gerarJsonParser.JsonContext ctx);
+	void enterProgram(gerarJsonParser.ProgramContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link gerarJsonParser#json}.
+	 * Exit a parse tree produced by {@link gerarJsonParser#program}.
 	 * @param ctx the parse tree
 	 */
-	void exitJson(gerarJsonParser.JsonContext ctx);
+	void exitProgram(gerarJsonParser.ProgramContext ctx);
 }

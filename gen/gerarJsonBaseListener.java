@@ -16,42 +16,6 @@ public class gerarJsonBaseListener implements gerarJsonListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVetor(gerarJsonParser.VetorContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitVetor(gerarJsonParser.VetorContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterObj(gerarJsonParser.ObjContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitObj(gerarJsonParser.ObjContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterTupla(gerarJsonParser.TuplaContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitTupla(gerarJsonParser.TuplaContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterString(gerarJsonParser.StringContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -100,6 +64,42 @@ public class gerarJsonBaseListener implements gerarJsonListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterObj(gerarJsonParser.ObjContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitObj(gerarJsonParser.ObjContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterPar(gerarJsonParser.ParContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitPar(gerarJsonParser.ParContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterVetor(gerarJsonParser.VetorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitVetor(gerarJsonParser.VetorContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterObjeto(gerarJsonParser.ObjetoContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -112,13 +112,13 @@ public class gerarJsonBaseListener implements gerarJsonListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterJson(gerarJsonParser.JsonContext ctx) { }
+	@Override public void enterProgram(gerarJsonParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitJson(gerarJsonParser.JsonContext ctx) { }
+	@Override public void exitProgram(gerarJsonParser.ProgramContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
