@@ -45,7 +45,7 @@ public class GeradorJson {
                 String a = "[\n";
                 for(int i = 2; i <size-1; i++){
                     if(!t.getChild(i).getText().equals(",")){
-                        a = a + "\t" + toString(t.getChild(i));
+                        a = a + "\t\t" + toString(t.getChild(i));
 
                     }
                     else{

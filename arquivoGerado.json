@@ -1,10 +1,9 @@
 {
-	"a":3,
-	"b":false,
-	"teste":[
-	1,
-	2,
-	false,
-	"xyz"
+	"nome":"Joao",
+	"idade":13,
+	"disciplinas":[
+		"Compiladores",
+		"MF",
+		"SO"
 	]
 }
