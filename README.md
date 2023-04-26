@@ -37,12 +37,12 @@ java -cp antlr.jar:classes Main
 O comando acima executa a classe Main do compilador. Os arquivos binários das classes estão localizades no diretório "classes". Para a classe poder ser executada é necessário também incluir os arquivos do runtime do antlr.jar.
 
 
-##Como usar
+## Como usar
 1. Criar um codespaces do projeto
 
 2. Dentro do codespaces, abrir o arquivo input.exp e nele escrever o comando para a criação do json de acordo com a gramática descrita em GerarJson.g4
 
-3. Executar o programa (escreva java -cp antlr.jar:classes Main no terminal)
+3. Executar o programa (escreva 'java -cp antlr.jar:classes Main' no terminal)
 
 4. Seu código Json vai ser gerado e pode ser visualizado no terminal ou direto no arquivo 'arquivoGerado.json' do diretório principal
 
