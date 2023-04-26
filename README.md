@@ -1,8 +1,8 @@
 # Projeto da Disciplina de Compiladores - 2022.2
 
-- [Objetivo](#-objetivo)
-- [Comandos para Compilar](#-comandos-para-compilar)
-- [Executar o programa](#-executar-o-programa)
+- [Objetivo](#objetivo)
+- [Comandos para Compilar](#comandos-para-compilar)
+- [Como Usar](#como-usar)
 
 ## Objetivo
 Criar um DSL para escrever JSON com o intuito de ajudar desenvolvedores que não possuem experiência com JSON.
