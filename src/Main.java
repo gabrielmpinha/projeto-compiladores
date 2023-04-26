@@ -1,5 +1,6 @@
 import org.antlr.v4.runtime.*;
 
+
 public class Main{
     public static void main(String[] args) throws Exception {
         CharStream input = CharStreams.fromFileName("input.exp");
@@ -9,6 +10,6 @@ public class Main{
         ParserRuleContext tree = parser.program();
 
 
-        GeradorJson.criarJson(tree, "teste");
+        GeradorJson.criarJson(tree, "arquivoGerado");
     }
 }

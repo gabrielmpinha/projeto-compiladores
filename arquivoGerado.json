@@ -1,4 +1,10 @@
 {
 	"a":3,
-	"b":false
+	"b":false,
+	"teste":[
+	1,
+	2,
+	false,
+	"xyz"
+	]
 }

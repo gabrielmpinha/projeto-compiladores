@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dde6e953-983f-4089-9314-eb6cc7ec0e05" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/antlr_4_12_0_complete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projeto-compiladores.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr-4.12.0-complete.jar" beforeDir="false" afterPath="$PROJECT_DIR$/antlr.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivoGerado.json" beforeDir="false" afterPath="$PROJECT_DIR$/arquivoGerado.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJson.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJson.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJsonBaseListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJsonBaseVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJsonLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJsonLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJsonLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJsonListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJsonParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/GerarJsonVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GeradorJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJson.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJson.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonBaseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonBaseVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$ArrayContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$BoolContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$ExpContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$IntContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$ObjContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$ObjetoContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$ParContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$ProgramContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$StringContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser$VetorContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/GerarJsonVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projeto-compiladores/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2O3tzUMHOSCtSy0we11a28mrOGA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabri\Documents\GitHub\projeto-compiladores" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="projeto-compiladores" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dde6e953-983f-4089-9314-eb6cc7ec0e05" name="Changes" comment="" />
+      <created>1680801356195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680801356195</updated>
+      <workItem from="1680801357658" duration="114000" />
+      <workItem from="1680801484117" duration="12000" />
+      <workItem from="1680801526091" duration="18861000" />
+      <workItem from="1682510824771" duration="1992000" />
+      <workItem from="1682513760273" duration="15000" />
+      <workItem from="1682513790948" duration="42000" />
+      <workItem from="1682513840040" duration="200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

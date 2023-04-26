@@ -1,4 +1,4 @@
-// Generated from C:/Users/gabri/Documents/GitHub/projeto-compiladores\GerarJson.g4 by ANTLR 4.12.0
+// Generated from GerarJson.g4 by ANTLR 4.12.0
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -113,11 +113,6 @@ public class GerarJsonParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof GerarJsonListener ) ((GerarJsonListener)listener).exitString(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GerarJsonVisitor ) return ((GerarJsonVisitor<? extends T>)visitor).visitString(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class BoolContext extends ExpContext {
@@ -130,11 +125,6 @@ public class GerarJsonParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof GerarJsonListener ) ((GerarJsonListener)listener).exitBool(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GerarJsonVisitor ) return ((GerarJsonVisitor<? extends T>)visitor).visitBool(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 	@SuppressWarnings("CheckReturnValue")
@@ -151,11 +141,6 @@ public class GerarJsonParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof GerarJsonListener ) ((GerarJsonListener)listener).exitArray(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GerarJsonVisitor ) return ((GerarJsonVisitor<? extends T>)visitor).visitArray(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ObjContext extends ExpContext {
@@ -171,11 +156,6 @@ public class GerarJsonParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof GerarJsonListener ) ((GerarJsonListener)listener).exitObj(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GerarJsonVisitor ) return ((GerarJsonVisitor<? extends T>)visitor).visitObj(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IntContext extends ExpContext {
@@ -188,11 +168,6 @@ public class GerarJsonParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof GerarJsonListener ) ((GerarJsonListener)listener).exitInt(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GerarJsonVisitor ) return ((GerarJsonVisitor<? extends T>)visitor).visitInt(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 
@@ -276,11 +251,6 @@ public class GerarJsonParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof GerarJsonListener ) ((GerarJsonListener)listener).exitPar(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GerarJsonVisitor ) return ((GerarJsonVisitor<? extends T>)visitor).visitPar(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final ParContext par() throws RecognitionException {
@@ -333,11 +303,6 @@ public class GerarJsonParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof GerarJsonListener ) ((GerarJsonListener)listener).exitVetor(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GerarJsonVisitor ) return ((GerarJsonVisitor<? extends T>)visitor).visitVetor(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 
@@ -425,11 +390,6 @@ public class GerarJsonParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof GerarJsonListener ) ((GerarJsonListener)listener).exitObjeto(this);
 		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GerarJsonVisitor ) return ((GerarJsonVisitor<? extends T>)visitor).visitObjeto(this);
-			else return visitor.visitChildren(this);
-		}
 	}
 
 	public final ObjetoContext objeto() throws RecognitionException {
@@ -512,11 +472,6 @@ public class GerarJsonParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof GerarJsonListener ) ((GerarJsonListener)listener).exitProgram(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GerarJsonVisitor ) return ((GerarJsonVisitor<? extends T>)visitor).visitProgram(this);
-			else return visitor.visitChildren(this);
 		}
 	}
 
